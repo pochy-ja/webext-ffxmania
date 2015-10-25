@@ -1,0 +1,29 @@
+{
+  "name": "Extensión Web Firefoxmania!",
+  "description": "Complemento para Firefox creado con la nueva API WebExtensions, compatible con Chrome/Chromium y Opera que apunta a Firefoxmania!",
+  "manifest_version": 2,
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "id": "webextffxmania@firefoxmania.uci.cu"
+    }
+  },
+  "background": {
+    "scripts": ["index.js"],
+    "persistent": false
+  },
+  "permissions": [
+    "tabs"
+  ],
+  "icons": {
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "browser_action": {
+    "default_icon": {
+      "19": "button.png",
+      "38": "button.png"
+    },
+    "default_title": "Extensión Web Firefoxmania!"
+  }
+}
